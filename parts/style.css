@@ -1,0 +1,135 @@
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #a19595;
+}
+
+.logo{
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 10px;
+}
+.logo a{
+    color: rgb(253, 13, 13);
+}
+.table{
+    vertical-align: middle;
+}
+table img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.search-form,.recent-posts{ 
+    box-shadow: 1px 1px 3px rgb(253, 13, 13);
+    border-radius: 6px;
+    padding: 9px;
+    margin-top: 0;
+}
+.search-form h3,.recent-posts h3{
+    text-transform: uppercase;
+    font-size: 22px;
+    border-left: 5px solid var(--bs-primary);
+    margin: 10px 0;
+    padding-left: 4px;
+}
+.recent-posts .card{
+    border: 0;
+}
+.recent-posts .card img{
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+}
+.recent-posts .card-body{
+    padding: 0;
+}
+.fit{
+    width: 100%;
+    height: 210px;
+    object-fit: contain;
+}
+.btn-primary {
+    color: rgb(253, 13, 13);
+    background-color: #f7f7f7;
+    border-color: rgb(253, 13, 13);
+}
+.btn-primary:hover{
+    color: rgb(253, 247, 247);
+    background-color:rgb(253, 13, 13);
+    border-color: #f7f7f7;
+    
+}
+p{
+    margin-top: 0%;
+    color: #fafafa;
+}
+.mx-1 {
+    margin-right: 0.25rem!important;
+    margin-left: 0.25rem!important;
+    color: rgb(255, 255, 255);
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background: black;
+}
+
+/* @media (min-width: 768px) */
+.col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    background: black;
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    background: black;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(253, 13, 13);
+
+}
+
+.search-form h3, .recent-posts h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    border-left: 5px solid rgb(253, 13, 13);
+    margin: 10px 0;
+    padding-left: 4px;
+}
+.form-control:focus {
+    color: #000000;
+    background-color: #fff;
+    border-color: rgb(253, 13, 13);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(219, 38, 38);
+}
+
+h2{
+    color:rgb(253, 13, 13);
+}
+.text-dark {
+    color: #fcfcfc!important;
+    font-size: 97%;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    color: #fd0d0d;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
